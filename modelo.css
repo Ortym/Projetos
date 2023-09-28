@@ -1,0 +1,59 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ /*mudando a cor de fundo*/
+    background: rgb(27, 27, 32);
+    font: normal 14pt Arial;
+    color: white;
+    line-height: 25px; 
+}
+
+header{ /*Cabeçalho*/
+    text-align: center;
+}
+
+.pag1{
+    border: 2px solid whitesmoke;
+}
+
+#ficha_cabecalho{
+    display: grid;
+    grid-template-columns: 152px 1fr;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+.pag1#ficha_conteudo{
+    padding: 100px 0;
+    width: 1000px;
+    position: relative;
+}
+
+.fotoPersonagem{
+    border: 2px solid whitesmoke;
+    padding: 120px 30px;
+    width: 150px;
+    height: 300px;
+}
+
+.atributosPrincipais{
+    border: 2px solid whitesmoke;
+    width: 700px;
+    height: 250px;
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.fichaAntecedentes{
+display: grid;
+grid-template-columns: 300px 300px 300px;
+}
+
+.atributosSecundarios{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projeto RPG</title>
+    <link rel="stylesheet" href="modelo.css"> <!--link para css--> 
+
+</head>
+<body>
+    <header>
+        <h1> Ficha de Personagem</h1>
+    </header>
+    
+    <div class="areaFicha">
+        <div class="fichaCabecalho">
+            <div class="fotoPersonagem">
+                foto do personagem
+            </div>
+
+            <div class="atributosPrincipais">
+                <div>Força: <br></div>
+                <div>Destreza: <br></div>
+                <div>Tamanho: <br></div>
+                <div>Constituição: <br></div>
+                <div>Aparencia: <br></div>
+                <div>Inteligencia: <br></div>
+                <div>Poder: <br></div>
+                <div>Educação: <br></div>
+            </div>
+            
+            <div class="atributosSecundarios">
+                <div>Pontos de vida: <br></div>
+                <div>Pontos de Sanidade: <br></div>
+                <div>Movimento: <br></div>
+                <div>Sorte: <br></div>
+                <div>Corpo: <br></div>
+            </div>
+        </div>
+
+        <div class="fichaPericias">
+            <div>
+                #PERÍCIAS:
+
+                Antropologia (01%) <br> <br>
+
+                Armas de Fogo (varia) [Especializações] <br>
+                | Arcos (15%) <br>
+                | Armas Pesadas (10%) <br>
+                | Espingardas (25%) <br>
+                | Lança-Chamas (10%) <br>
+                | Metralhadoras (10%) <br>
+                | Pistolas (20%) <br>
+                | Rifles (25%) <br>
+                | Submetralhadoras (15%) <br> <br>
+
+                Arqueologia (01%) <br>
+                Arremessar (20%) <br> <br>
+
+                Arte e Ofício (05%) [Especializações] <br>
+                | Atuação (05%) <br>
+                | Belas Artes (05%) <br>
+                | Falsificação (05%) <br>
+                | Fotografia (05%) <br> <br>
+
+                Artilharia (01%) [Incomum] <br> <br>
+
+                Avaliação (05%) <br> <br>
+
+                Cavalgar (05%) <br>
+                Charme (15%) <br> 
+                Chaveiro (01%) <br> <br>
+
+                Ciência (01%) [Especializações] <br>
+                | Astronomia (01%) <br>
+                | Biologia (01%) <br>
+                | Botânica (01%) <br>
+                | Ciência Forense (01%) <br>
+                | Criptografia (01%) <br>
+                | Engenharia (01%) <br>
+                | Farmácia (01%) <br>
+                | Física (01%) <br>
+                | Geologia (01%) <br>
+                | Matemática (01%) <br>
+                | Meteorologia (01%) <br>
+                | Química (01%) <br>
+                | Zoologia (01%) <br> <br>
+
+
+                Conhecimento (01%) [Incomum] [Especializações] <br> <br>
+
+                Consertos Elétricos (10%) <br>
+                Consertos Mecânicos (10%) <br>
+                Contabilidade (05%) <br>
+
+                Demolições (01%) [Incomum] <br>
+                Direito (05%) <br>
+                Dirigir Automóveis (20%) <br>
+                Disfarce (05%) <br>
+                Eletrônica (01%) [Moderna] <br>
+                Encontrar (25%) <br>
+                Escalar (20%) <br> 
+                Escutar (20%) <br>
+                Esquivar (metade da DES) <br>
+                Furtividade (20%)  <br>
+                Hipnose (01%) [Incomum]  <br>
+                História (05%)  <br>
+                Intimidação (15%)  <br>
+                Lábia (05%)  <br>
+                Leitura Labial (01%) [Incomum]  <br>
+                Língua (Nativa) (EDU)  <br>
+                Língua (Outra) (01%) [Especializações]  <br>  <br>
+
+                Lutar (varia) [Especializações]  <br>
+                | Briga (25%)  <br>
+                | Chicotes (05%)  <br>
+                | Espadas (20%)  <br>
+                | Garrote (15%)  <br>
+                | Lanças (20%) <br>
+                | Machados (15%) <br>
+                | Manguais (10%) <br>
+                | Motosserras (10%) <br> <br>
+                Medicina (01%) <br>
+                Mergulho (01%) <br>
+
+                Mundo Natural (10%) <br>
+                Mythos de Cthulhu (00%) <br>
+                Natação (20%) <br>
+                Navegação (10%) <br>
+                Nível de Crédito (00%) <br>
+                Ocultismo (05%) <br>
+                Operar Maquinário Pesado (01%) <br>
+                Persuasão (10%) <br>
+
+                Pilotar (01%) [Especializações] <br>
+
+                Prestidigitação (10%) <br>
+                Primeiros Socorros (30%) <br>
+                Psicanálise (01%) <br>
+                Psicologia (10%) <br>
+
+                Rastrear (10%) <br>
+
+                Saltar (20%) <br>
+
+                Sobrevivência (10%) [Especializações] <br>
+
+
+                Treinar Animais (05%) [Incomum] <br>
+                Usar Bibliotecas (20%) <br>
+                Usar Computadores (05%) [Moderna] <br>
+            </div>
+        </div>
+        
+        <div class="fichaCombate">
+            <div>Corpo: <br></div>
+            <div>Dano Bonus: <br></div>
+            <div>Esquiva: <br></div>
+            <div class="listaDeArmas">
+                <div id="arma1">Arma 1: <br> 
+                    <input type="text" name="NomeArma" id="arma1" value="" placeholder="Nome da arma">
+
+                    <select style="width: 200px;" value="aaaaaa" name="PericiaUtilizada" placeholder="Pericia" id="pericia1">
+                        <option value="">
+                            <label placeholder="aa"></label>
+                        </option>
+                    </select>
+ 
+                    <input type="text" name="DistanciaArma" id="distancia1" value="" placeholder="Distancia">
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="fichaAntecedentes">
+            <div>Descrição Pessoal<br><textarea name="antecedentes" id=descricaoPessoal rows="8" cols="40"></textarea></div>
+            <div>Pertence Querido<br><textarea name="antecedentes" id=pertenceQuerido rows="8" cols="40"></textarea></div>
+            <div>Local Importante<br><textarea name="antecedentes" id=localImportante rows="8" cols="40"></textarea></div>
+            <div>Ideologias e Crenças<br><textarea name="antecedentes" id=ideologiaCrenca rows="8" cols="40"></textarea></div>
+            
+            
+            
+        </div>
+        
+        <div class="fichaPertences">
+            
+        </div>
+        
+        <div class="fichaMagias">
+            
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>&copy; Teupaidecalcinha</p>
+    </footer>
+    <script src="modelo.js"></script>
+
+    <!--Teste <input type="button" value="Rolar" id="btt">-->
+</body>
+</html>
